@@ -1,6 +1,7 @@
- /* body {
+ body {
      margin: 0;
 }
+/*
 a {
     text-decoration: none;
     color: inherit;
@@ -56,3 +57,15 @@ p {
  */
 
  
+ .wrap {
+    /* height: 100px; */
+    background: #0008;
+}
+.item {
+    border: 1px solid #800;
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
