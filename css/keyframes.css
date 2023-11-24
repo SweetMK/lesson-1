@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  background: url("../img/khinkali.jpg") no-repeat center center / cover;
+  margin: 0;
+}
+.loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  gap: 20px;
+}
+.wrap {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  background: #000;
+  border-radius: 50%;
+  animation: loading 1800ms linear infinite;
+}
+.circle2 {
+  animation-delay: 300ms;
+}
+.circle3 {
+  animation-delay: 600ms;
+}
+@keyframes loading {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    width: 0;
+    height: 0;
+  }
+}

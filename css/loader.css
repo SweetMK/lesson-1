@@ -1,0 +1,122 @@
+body {
+
+    margin: 0;
+    background-color: #000000;
+
+}
+.loader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    animation: loading 2000ms linear infinite;
+}
+.column {
+height: 100%;
+width: 15%;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+
+}
+.circle {
+    width: 100%;
+    background: #ff0;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+
+}
+.column1 {
+
+    transform: translate(-50%, -50%) rotateZ(36deg);
+}
+.column2 {
+
+    transform: translate(-50%, -50%) rotateZ(72deg);
+}
+.column3 {
+
+    transform: translate(-50%, -50%) rotateZ(108deg);
+}
+.column4 {
+
+    transform: translate(-50%, -50%) rotateZ(144deg);
+}
+.column5 {
+
+    transform: translate(-50%, -50%) rotateZ(180deg);
+}
+.column6 {
+
+    transform: translate(-50%, -50%) rotateZ(216deg);
+}
+.column7 {
+
+    transform: translate(-50%, -50%) rotateZ(252deg);
+}
+.column8 {
+
+    transform: translate(-50%, -50%) rotateZ(288deg);
+}
+.column9 {
+
+    transform: translate(-50%, -50%) rotateZ(324deg);
+}
+.column10 {
+
+    transform: translate(-50%, -50%) rotateZ(360deg);
+}
+.circle1 {
+
+    opacity: 10%;
+}
+.circle2 {
+
+    opacity: 20%;
+}
+.circle3 {
+
+    opacity: 30%;
+}
+.circle4 {
+
+    opacity: 40%;
+}
+.circle5 {
+
+    opacity: 50%;
+}
+.circle6 {
+
+    opacity: 60%;
+}
+.circle7 {
+
+    opacity: 70%;
+}
+.circle8 {
+
+    opacity: 80%;
+}
+.circle9 {
+
+    opacity: 90%;
+}
+.circle10 {
+
+    opacity: 100%;
+}
+@keyframes loading {
+    0% {
+        transform:translate(-50% , -50%) rotateZ(0deg);
+    }
+    50% {
+        transform:translate(-50% , -50%) rotateZ(180deg);
+    }
+    100% {
+        transform:translate(-50% , -50%) rotateZ(360deg);
+    }
+}
